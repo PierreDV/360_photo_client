@@ -6,7 +6,7 @@ export default class Panorama extends React.Component {
   constructor(props, context) {
     super(props, context);
 
-    this.texture = THREE.ImageUtils.loadTexture('boat.jpg')
+    this.texture = THREE.ImageUtils.loadTexture('./park.jpg')
     this.cameraPosition = new THREE.Vector3(0,0,5);
     this.sphereScale = new THREE.Vector3(1,1,-1);
 
