@@ -13,28 +13,33 @@ ReactDOM.render(
         <h1>The beauty of panoramic photography</h1>
         <ul>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/boat">Boat</Link></li>
+          <li><Link to="/dusk">Dusk</Link></li>
           <li><Link to="/sunset">Sunset</Link></li>
-          <li><Link to="/lake">Lake</Link></li>
           <li><Link to="/forest">Forest</Link></li>
+          <li><Link to="/lake">Lake</Link></li>
+          <li><Link to="/pier">Pier</Link></li>
         </ul>
       </div>
       <Route exact path="/" component={Home} />
       <Route
-        path="/boat"
-        render={(props) => <Panorama {...props} imageURL="./boat.jpg" />}
+        path="/dusk"
+        render={(props) => <Panorama {...props} imageURL="./dusk.jpg" />}
       />
       <Route
         path="/sunset"
         render={(props) => <Panorama {...props} imageURL="./sunset.jpg" />}
       />
       <Route
-        path="/lake"
-        render={(props) => <Panorama {...props} imageURL="./lake.jpg" />}
-      />
-      <Route
         path="/forest"
         render={(props) => <Panorama {...props} imageURL="./forest.jpg" />}
+      />
+      <Route
+        path="/pier"
+        render={(props) => <Panorama {...props} imageURL="./pier.jpg" />}
+      />
+      <Route
+        path="/lake"
+        render={(props) => <Panorama {...props} imageURL="./lake.jpg" />}
       />
     </div>
   </Router>
