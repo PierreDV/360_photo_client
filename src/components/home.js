@@ -4,7 +4,7 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <h1>You is home!!!</h1>
+        <p>Click on a scene to see in panorama view</p>
       </div>
     );
   }

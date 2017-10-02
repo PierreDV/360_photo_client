@@ -5,6 +5,20 @@ body {
 
 h1 {
   color: #ee3e80;
+  padding:0px 20px
+}
+
+p {
+  padding:0px 35px;
+}
+
+p, a {
+  color: #665544;
+}
+
+li {
+  display: inline;
+  padding:0px 4px;
 }
 
 canvas {

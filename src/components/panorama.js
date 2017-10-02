@@ -26,7 +26,7 @@ export default class Panorama extends React.Component {
   }
   render() {
     const width = window.innerWidth;
-    const height = window.innerHeight;
+    const height = window.innerHeight/1.15;
 
     return(
       <React3
