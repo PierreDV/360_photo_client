@@ -7,6 +7,8 @@
     "build": "webpack",
     "watch": "webpack --watch",
     "start": "webpack-dev-server",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/PierreDV/360_photo_client/issues"
   },
-  "homepage": "https://github.com/PierreDV/360_photo_client#readme",
+  "homepage": "https://PierreDV.github.io/360_photo_client/",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -31,6 +33,7 @@
     "webpack-dev-server": "^2.9.1"
   },
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^15.6.2",
     "react-dom": "^15.6.2",
     "react-router-dom": "^4.2.2",
