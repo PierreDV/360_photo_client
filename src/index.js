@@ -7,7 +7,7 @@ import Home from './components/home'
 import Panorama from './components/panorama'
 
 ReactDOM.render(
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <div>
       <div id="navbar">
         <h1>The beauty of panoramic photography</h1>

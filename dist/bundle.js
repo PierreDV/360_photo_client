@@ -64627,7 +64627,7 @@ module.exports = ShaderMaterialDescriptor;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
+/* WEBPACK VAR INJECTION */(function(process) {
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -64655,7 +64655,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 _reactDom2.default.render(_react2.default.createElement(
   _reactRouterDom.BrowserRouter,
-  null,
+  { basename: process.env.PUBLIC_URL },
   _react2.default.createElement(
     'div',
     null,
@@ -64759,6 +64759,7 @@ _reactDom2.default.render(_react2.default.createElement(
     })
   )
 ), document.querySelector('#root'));
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
 /* 157 */
