@@ -64667,7 +64667,6 @@ _reactDom2.default.render(_react2.default.createElement(
         null,
         'The beauty of panoramic photography'
       ),
-      _react2.default.createElement('img', { src: './sunset.JPG' }),
       _react2.default.createElement(
         'ul',
         null,

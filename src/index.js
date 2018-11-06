@@ -11,7 +11,6 @@ ReactDOM.render(
     <div>
       <div id="navbar">
         <h1>The beauty of panoramic photography</h1>
-        <img src="./sunset.JPG" ></img>
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/dusk">Dusk</Link></li>
