@@ -64667,6 +64667,7 @@ _reactDom2.default.render(_react2.default.createElement(
         null,
         'The beauty of panoramic photography'
       ),
+      _react2.default.createElement('img', { src: './sunset.JPG' }),
       _react2.default.createElement(
         'ul',
         null,
@@ -78183,16 +78184,15 @@ var Home = function (_Component) {
   }
 
   _createClass(Home, [{
-    key: "render",
+    key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        "div",
+        'div',
         null,
-        _react2.default.createElement("img", { src: "./sunset.JPG" }),
         _react2.default.createElement(
-          "p",
+          'p',
           null,
-          "Click on a scene to see in panorama view"
+          'Click on a scene to see in panorama view'
         )
       );
     }
