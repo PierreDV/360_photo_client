@@ -64730,31 +64730,31 @@ _reactDom2.default.render(_react2.default.createElement(
     _react2.default.createElement(_reactRouterDom.Route, {
       path: '/dusk',
       render: function render(props) {
-        return _react2.default.createElement(_panorama2.default, _extends({}, props, { imageURL: './dusk.JPG' }));
+        return _react2.default.createElement(_panorama2.default, _extends({}, props, { imageURL: '/dusk.JPG' }));
       }
     }),
     _react2.default.createElement(_reactRouterDom.Route, {
       path: '/sunset',
       render: function render(props) {
-        return _react2.default.createElement(_panorama2.default, _extends({}, props, { imageURL: './sunset.JPG' }));
+        return _react2.default.createElement(_panorama2.default, _extends({}, props, { imageURL: '/sunset.JPG' }));
       }
     }),
     _react2.default.createElement(_reactRouterDom.Route, {
       path: '/forest',
       render: function render(props) {
-        return _react2.default.createElement(_panorama2.default, _extends({}, props, { imageURL: './forest.JPG' }));
+        return _react2.default.createElement(_panorama2.default, _extends({}, props, { imageURL: '/forest.JPG' }));
       }
     }),
     _react2.default.createElement(_reactRouterDom.Route, {
       path: '/pier',
       render: function render(props) {
-        return _react2.default.createElement(_panorama2.default, _extends({}, props, { imageURL: './pier.JPG' }));
+        return _react2.default.createElement(_panorama2.default, _extends({}, props, { imageURL: '/pier.JPG' }));
       }
     }),
     _react2.default.createElement(_reactRouterDom.Route, {
       path: '/lake',
       render: function render(props) {
-        return _react2.default.createElement(_panorama2.default, _extends({}, props, { imageURL: './lake.JPG' }));
+        return _react2.default.createElement(_panorama2.default, _extends({}, props, { imageURL: '/lake.JPG' }));
       }
     })
   )
